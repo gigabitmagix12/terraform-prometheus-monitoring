@@ -53,6 +53,7 @@ terraform init
 terraform apply
 
 **Access Services**
+
 NGINX: http://localhost:8081
 
 Prometheus: http://localhost:9090
@@ -71,16 +72,17 @@ Prometheus scrape configuration and networking
 Terraform resource dependency management
 
 **==Future Improvements==**
-Alertmanager integration
 
-TLS with reverse proxy
+**Alertmanager integration**
 
-Remote backend (S3 + DynamoDB)
+**TLS with reverse proxy**
 
-Staging for Java and Python Application hosting
+**Remote backend (S3 + DynamoDB)**
 
-Multi-Could Multi-Tenant CI/CD pipeline
+**Staging for Java and Python Application hosting**
 
-Kubernetes migration
+**Multi-Could Multi-Tenant CI/CD pipeline**
+
+**Kubernetes migration**
 
 
