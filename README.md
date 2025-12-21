@@ -20,13 +20,19 @@ The lab simulates an enterprise real-world IaC environment, focusing on:
 
 
 Technologies Used
+
 Terraform 
+
 Docker Engine
+
 Prometheus
+
 Grafana
+
 Linux (WSL2 / AlmaLinux )
 
 **Key Features**
+
 Docker images and containers managed entirely by Terraform
 
 Custom NGINX image built via Dockerfile
@@ -55,6 +61,7 @@ Grafana: http://localhost:3000
 
 
 **Lessons Learned**
+
 Debugging container startup failures
 
 Handling Docker permissions and volume ownership
