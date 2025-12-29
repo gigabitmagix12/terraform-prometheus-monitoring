@@ -3,12 +3,13 @@
 ## Overview
 This project demonstrates Infrastructure as Code (IaC) principles using Terraform to provision and manage a containerized monitoring stack using Docker, Nginx, Prometheus, and Grafana for visual data.
 
-The lab simulates an enterprise real-world IaC environment, focusing on:
+The lab simulates an enterprise IaC environment:
 - Declarative infrastructure
 - Service networking
 - Metrics collection and visualization
 - Persistent storage
 - Operational troubleshooting
+- Containerized architecture
 
 ## Architecture
 - **Nginx** – Sample web service
@@ -33,9 +34,9 @@ Linux (WSL2 / AlmaLinux )
 
 **Key Features**
 
-Docker images and containers managed entirely by Terraform
+Docker images and containers managed by Terraform
 
-Custom NGINX image built via Dockerfile
+Custom Nginx image built via Dockerfile
 
 Persistent volumes for Prometheus data and configuration
 
@@ -81,7 +82,7 @@ Terraform resource dependency management
 
 **Staging for Java and Python Application hosting**
 
-**Multi-Could Multi-Tenant CI/CD pipeline**
+**Multi-Could CI/CD pipeline**
 
 **Kubernetes migration**
 
