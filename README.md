@@ -1,4 +1,4 @@
-# Terraform Docker Monitoring Lab (NGINX + Prometheus + Grafana)
+# Terraform Docker Observability Lab 
 
 ## Overview
 This project demonstrates Infrastructure as Code (IaC) principles using Terraform to provision and manage a containerized monitoring stack using Docker, Nginx, Prometheus, and Grafana for visual data.
